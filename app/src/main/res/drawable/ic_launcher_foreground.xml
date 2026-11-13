@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Barra com anilhas, dentro da área segura do ícone adaptativo (66dp centrais de 108dp) -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M30,52h48v4h-48z" />
+    <path
+        android:fillColor="#FF6B2C"
+        android:pathData="M36,40h6v28h-6z M66,40h6v28h-6z" />
+    <path
+        android:fillColor="#FF9A68"
+        android:pathData="M29,45h5v18h-5z M74,45h5v18h-5z" />
+</vector>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Pastas da área privada do app que podem ser abertas por outro app (player, WhatsApp).
+     Os nomes batem com MeuPlanoApp e PlanoRepository. -->
+<paths>
+    <files-path
+        name="videos"
+        path="videos/" />
+    <files-path
+        name="fotos"
+        path="fotos/" />
+    <files-path
+        name="feedback"
+        path="feedback/" />
+    <files-path
+        name="camera"
+        path="camera/" />
+</paths>

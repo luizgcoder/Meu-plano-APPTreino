@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Só o que aparece antes do Compose desenhar a tela. O app é sempre escuro;
+         as cores e fontes de verdade ficam em ui/Design.kt -->
+    <style name="Theme.MeuPlano" parent="android:Theme.Material.NoActionBar">
+        <item name="android:windowBackground">@color/fundo</item>
+    </style>
+</resources>

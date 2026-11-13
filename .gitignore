@@ -1,0 +1,14 @@
+*.iml
+.gradle/
+.idea/
+.kotlin/
+local.properties
+build/
+captures/
+.externalNativeBuild/
+.cxx/
+.DS_Store
+
+# Plano de verdade usado no teste do parser: tem dados pessoais, fica só na máquina.
+app/src/test/resources/plano_exemplo.html
+app/src/test/java/com/luiz/meuplano/parser/PlanoParserTest.kt

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12 ou mais novo. Vai para o backup (nuvem e troca de aparelho) só o banco
+     (plano, cargas, dieta) e as preferências. Os vídeos e as fotos, inclusive os do físico,
+     ficam só neste aparelho: são grandes demais para a nuvem e pessoais demais para sair dele. -->
+<data-extraction-rules>
+    <cloud-backup>
+        <include domain="database" path="." />
+        <include domain="sharedpref" path="." />
+    </cloud-backup>
+    <device-transfer>
+        <include domain="database" path="." />
+        <include domain="sharedpref" path="." />
+    </device-transfer>
+</data-extraction-rules>
