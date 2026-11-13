@@ -4,7 +4,7 @@ App Android que importa o HTML semanal do treinador (treino e dieta).
 
 ## O que já tem
 
-- Parser do HTML (`parser/`)
+- Parser do HTML (`parser/`), com testes contra um plano de exemplo
 - Banco local Room (`data/`)
 - Importação: "Abrir com" / "Compartilhar" de um `.html`, ou o botão dentro do app
 - Telas de consulta: Treino (A–E e Cardio), Dieta e Info
@@ -98,10 +98,10 @@ O SDK usado é o Android 16 (API 36); o Studio oferece para baixar se faltar.
 
     ./gradlew :app:testDebugUnitTest
 
-`FeedbackTest` confere o texto do feedback com uma semana de exemplo. O teste do parser
-(`PlanoParserTest`) usa um plano de verdade, com dados pessoais, e por isso não está no
-repositório: para rodá-lo, ponha o seu plano em `app/src/test/resources/plano_exemplo.html`
-(os dois arquivos estão no `.gitignore`).
+`PlanoParserTest` confere o parser contra um plano de exemplo
+(`app/src/test/resources/plano_exemplo.html`): inventado, sem dados de ninguém, mas no mesmo
+formato do HTML que o treinador envia. `FeedbackTest` confere o texto do feedback com uma
+semana de exemplo.
 
 ## Design
 
